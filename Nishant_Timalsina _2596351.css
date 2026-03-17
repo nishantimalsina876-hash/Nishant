@@ -1,0 +1,55 @@
+#image{
+    display: inline;
+    width: 100px;
+    float: center;
+    
+}
+body{
+    text-align: center;
+    justify-self: center;
+    background-color: #8fe0ff;
+    font-family: 'Poppins' 
+    
+}
+.main{
+    border: 1px solid black;
+    width: 1100px ;
+    height: 700px;
+    border-radius: 50px;
+    
+}
+.detail{
+    display: inline-block;
+}
+.phwd{
+    float: none;
+}
+
+#pressure{
+    border: 2px solid blue;
+    display: inline-block;
+    padding: 50px;
+    border-radius: 20px;
+    
+}
+#humidity{
+    border: 2px solid blue;
+    display: inline-block;
+    padding: 50px;
+    border-radius: 20px;
+}
+#wind{
+    border: 2px solid blue;
+    display: inline-block;
+    padding: 50px;
+    border-radius: 20px;
+}
+#direction{
+    border: 2px solid blue;
+    display: inline-block;
+    padding: 50px;
+    border-radius: 20px;
+}
+#date{
+  text-align: start;
+}

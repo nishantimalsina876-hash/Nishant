@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather</title>
+
+  <link rel="stylesheet" href="./weather.css">
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+
+<div class="main">
+
+  <form>
+    <input type="text" placeholder="city name" id="searchbar">
+    <button type="button" id="searchbtn">Search</button>
+  </form>
+
+  <h1>Weather</h1>
+
+
+  <!-- BORDER CONTAINER -->
+    <div id="date">
+        <h3 class="Date">day</h3>
+      </div>
+  <div class="weather-box">
+
+    <div id="weather-main">
+      <img id="image"
+           src="https://openweathermap.org/img/wn/10d@2x.png"
+           alt="weather icon">
+      <h1 id="temperature">20°C</h1>
+      <div id="city">Kalaiya</div>
+      <div id="weather condition">clear</div>
+      <div id="weather">clear sky</div>
+    </div>
+    </div>
+
+    <ul type="none" class="phwd">
+      <div class="detail">
+        <p id="pressure">Pressure <i class="fa-solid fa-temperature-empty"></i></p>
+      </div>
+
+      <div class="detail">
+        <p id="humidity">Humidity <i class="fa-solid fa-water"></i></p>
+      </div>
+
+      <div class="detail">
+        <p id="wind">Wind<i class="fa-solid fa-wind"></i></p>
+      </div>
+
+      <div class="detail">
+        <p id="direction">Direction<i class="fa-solid fa-compass"></i></p>
+      </div>
+    </ul>
+    
+    <footer>
+  Copyright © Nishant Timalsina,2596351
+</footer>
+
+    <div id="bottombar">
+      
+    
+
+     
+    </div>
+
+  </div>
+  <!-- END BORDER CONTAINER -->
+
+</div>
+
+<script src="weather.js"></script>
+</body>
+</html>
